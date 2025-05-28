@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { MobileMenu,ScrollNav } from '@/components/shared';
+import {ScrollNav, MobileMenu} from './components'
 
 const navItems = [
   { label: 'Home', href: '/' },
